@@ -76,8 +76,45 @@
       </div>
     </nav>
 
-    <!-- Hero Section  -->
-     
+    <!-- Hero Section -->
+    <section
+      class="w-full h-[390px] flex items-center justify-center bg-gradient-to-r from-emerald-50 to-green-50 relative overflow-hidden"
+    >
+      <!-- Background images - hidden on mobile -->
+      <div class="absolute inset-0 z-0">
+        <img
+          src="assets/hero-leaf1.png"
+          alt=""
+          class="absolute left-0 bottom-0 h-4/5 hidden md:block"
+        />
+        <img
+          src="assets/hero-leaf2.png"
+          alt=""
+          class="absolute right-0 bottom-0 h-4/5 hidden md:block"
+        />
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 text-center relative z-10"
+      >
+        <h1
+          class="text-black font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-6 leading-tight"
+        >
+          Plant a Tree, Grow a Future
+        </h1>
+        <p
+          class="text-black font-normal text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-10"
+        >
+          Join our mission to plant 1 million trees and make the Earth greener
+          for future generations.
+        </p>
+        <button
+          class="text-green-800 bg-[#FACC15] font-bold py-3 px-8 md:py-4 md:px-10 rounded-full hover:bg-yellow-400 transition duration-300 transform hover:scale-105 shadow-lg text-lg md:text-xl"
+        >
+          Get Involved
+        </button>
+      </div>
+    </section>
 
     <script src="./index.js"></script>
   </body>
