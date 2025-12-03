@@ -23,6 +23,10 @@
       referrerpolicy="no-referrer"
     />
     <style>
+      * {
+        font-family: "font-poppins";
+      }
+
       @media (max-width: 768px) {
         .mobile-adjust {
           padding-left: 1rem;
@@ -35,7 +39,7 @@
       }
     </style>
   </head>
-  <body class="font-poppins">
+  <body>
     <!-- NavBar Section  -->
     <nav
       class="bg-[#15803D] w-full h-[90px] flex items-center justify-between px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-auto 2xl:max-w-[1920px] 2xl:mx-auto"
@@ -78,7 +82,7 @@
 
     <!-- Hero Section -->
     <section
-      class="w-full h-[390px] flex items-center justify-center bg-gradient-to-r from-emerald-50 to-green-50 relative overflow-hidden"
+      class="w-full h-[390px] flex items-center justify-center bg-[#cff0dc] relative overflow-hidden"
     >
       <!-- Background images - hidden on mobile -->
       <div class="absolute inset-0 z-0">
@@ -106,6 +110,7 @@
           class="text-black font-normal text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-10"
         >
           Join our mission to plant 1 million trees and make the Earth greener
+          <br />
           for future generations.
         </p>
         <button
@@ -115,6 +120,209 @@
         </button>
       </div>
     </section>
+
+    <!-- Tree Selection  -->
+
+    <main class="bg-[#f0fdf4] min-h-screen py-4">
+      
+      <!-- Common Heading  -->
+      <h1
+        class="text-black mx-auto text-center font-bold text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl mt-24 mb-10 leading-tight"
+      >
+        Select Your Trees
+      </h1>
+
+      <div class="w-11/12 grid grid-cols-12 gap-4 mx-auto">
+        <!-- Categories Section  -->
+
+        <section class="bg-[#cff0dc] col-span-2 rounded-xl p-3">
+          <h1 class="text-xl font-bold text-center bg-white rounded-2xl">
+            Cateogries
+          </h1>
+          <div class="divider"></div>
+          <!-- Categories  -->
+          <div class="grid grid-cols-2 gap-3 sticky top-0">
+            <button class="btn col-span-2 flex justify-start">
+              Fruit Tree
+            </button>
+          </div>
+        </section>
+
+        <!-- Tree Description Section  -->
+
+        <section class="col-span-8">
+          <div class="grid grid-cols-3 gap-5">
+            <!-- Card 1 -->
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
+            >
+              <!-- Image Section -->
+              <img
+                src="https://i.ibb.co.com/cSQdg7tf/mango-min.jpg"
+                alt="Product Name"
+                class="h-48 w-full object-cover"
+              />
+
+              <!-- Content Section -->
+              <div class="p-4 flex flex-col flex-grow">
+                <!-- Category -->
+                <div class="mb-2">
+                  <span
+                    class="text-xs font-semibold text-blue-600 uppercase tracking-wide"
+                    >Fruit Tree</span
+                  >
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
+                  Mango Tree
+                </h3>
+
+                <!-- Description -->
+                <p class="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
+                  A fast-growing tropical tree that produces delicious, juicy
+                  mangoes during summer. Its dense green canopy offers shade,
+                  while its sweet fruits are rich in vitamins and minerals.
+                </p>
+
+                <!-- Price and Button Section -->
+                <div class="flex items-center justify-between mt-auto">
+                  <!-- Price -->
+                  <div>
+                    <span class="text-lg font-bold text-gray-900">500 BDT</span>
+                  </div>
+
+                  <!-- Add to Cart Button -->
+                  <button
+                    class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md text-sm transition duration-200"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
+            >
+              <!-- Image Section -->
+              <img
+                src="https://i.ibb.co.com/cSQdg7tf/mango-min.jpg"
+                alt="Product Name"
+                class="h-48 w-full object-cover"
+              />
+
+              <!-- Content Section -->
+              <div class="p-4 flex flex-col flex-grow">
+                <!-- Category -->
+                <div class="mb-2">
+                  <span
+                    class="text-xs font-semibold text-blue-600 uppercase tracking-wide"
+                    >Fruit Tree</span
+                  >
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
+                  Mango Tree
+                </h3>
+
+                <!-- Description -->
+                <p class="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
+                  A fast-growing tropical tree that produces delicious, juicy
+                  mangoes during summer. Its dense green canopy offers shade,
+                  while its sweet fruits are rich in vitamins and minerals.
+                </p>
+
+                <!-- Price and Button Section -->
+                <div class="flex items-center justify-between mt-auto">
+                  <!-- Price -->
+                  <div>
+                    <span class="text-lg font-bold text-gray-900">500 BDT</span>
+                  </div>
+
+                  <!-- Add to Cart Button -->
+                  <button
+                    class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md text-sm transition duration-200"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
+            >
+              <!-- Image Section -->
+              <img
+                src="https://i.ibb.co.com/cSQdg7tf/mango-min.jpg"
+                alt="Product Name"
+                class="h-48 w-full object-cover"
+              />
+
+              <!-- Content Section -->
+              <div class="p-4 flex flex-col flex-grow">
+                <!-- Category -->
+                <div class="mb-2">
+                  <span
+                    class="text-xs font-semibold text-blue-600 uppercase tracking-wide"
+                    >Fruit Tree</span
+                  >
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
+                  Mango Tree
+                </h3>
+
+                <!-- Description -->
+                <p class="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
+                  A fast-growing tropical tree that produces delicious, juicy
+                  mangoes during summer. Its dense green canopy offers shade,
+                  while its sweet fruits are rich in vitamins and minerals.
+                </p>
+
+                <!-- Price and Button Section -->
+                <div class="flex items-center justify-between mt-auto">
+                  <!-- Price -->
+                  <div>
+                    <span class="text-lg font-bold text-gray-900">500 BDT</span>
+                  </div>
+
+                  <!-- Add to Cart Button -->
+                  <button
+                    class="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md text-sm transition duration-200"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Cart Section  -->
+
+        <section class="bg-[#cff0dc] col-span-2 rounded-xl p-3">
+          <h1 class="text-xl font-bold text-center bg-white rounded-2xl">
+            Your Cart
+          </h1>
+          <div class="divider"></div>
+          <div class="grid grid-cols-2 gap-5" id="cart-container">
+            <!-- sample cart  -->
+          </div>
+
+          <div class="bg-[#f0fdf4] mt-10 rounded-xl">
+            <h2 class="p-3 text-black font-bold">
+              Total: <span id="cart-total">0</span>BDT
+            </h2>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <script src="./index.js"></script>
   </body>
