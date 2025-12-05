@@ -107,7 +107,7 @@ const displayPlants = (plants) => {
               <div class="px-3 sm:px-4 pb-3 sm:pb-4 flex justify-center">
                 <button
                   onclick="addToCart(this)"
-                  class="bg-green-600 hover:bg-green-700 text-white font-medium py-1.5 sm:py-2 px-6 sm:px-8 rounded-md text-xs sm:text-sm transition duration-200 mx-auto"
+                  class="bg-green-600 hover:bg-green-700 text-white font-medium py-1.5 sm:py-2 rounded-md text-xs sm:text-sm transition duration-200 w-full"
                 >
                     Add to Cart
                 </button>

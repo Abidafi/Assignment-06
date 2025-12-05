@@ -1,6 +1,6 @@
-## WELCOME TO ASSIGNMENT-006
+## WELCOME TO ASSIGNMENT- 06
 
-#### 7) Create a README file to answer the following question-
+#### In relation to the Assignment 6, we will learn the answer of the following questions-
 
 
 #### 1) What is the difference between var, let, and const?
@@ -13,7 +13,7 @@
 
 #### 5) Explain template literals in ES6. How are they different from string concatenation?
 
-## ⚙️ Functionalities 
+
 
 
 
