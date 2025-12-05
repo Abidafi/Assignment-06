@@ -49,6 +49,7 @@
   </head>
   <body>
     <!-- NavBar Section  -->
+
     <nav
       class="bg-[#15803D] w-full h-[90px] flex items-center justify-between px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-auto 2xl:max-w-[1920px] 2xl:mx-auto"
     >
@@ -89,6 +90,7 @@
     </nav>
 
     <!-- Hero Section -->
+
     <section
       class="w-full h-[390px] flex items-center justify-center bg-[#cff0dc] relative overflow-hidden"
     >
@@ -521,6 +523,7 @@
     </section>
 
     <!-- Our Impact Section -->
+
     <section class="bg-[#cff0dc] py-16 px-4 md:px-8 lg:px-16">
       <div class="max-w-7xl mx-auto">
         <!-- Common Heading -->
@@ -563,8 +566,8 @@
               Communities Involved
             </h3>
             <p class="text-gray-600 text-base md:text-lg">
-              More than 120 communities actively participate 
-              in our tree planting initiatives and environmental programs.
+              More than 120 communities actively participate in our tree
+              planting initiatives and environmental programs.
             </p>
           </div>
 
@@ -588,6 +591,93 @@
         </div>
       </div>
     </section>
+
+    <!-- Donation Form Section -->
+    <section class="bg-[#166534] py-16 px-4 md:px-8 lg:px-16">
+      <div class="max-w-4xl mx-auto">
+        <!-- Common Heading -->
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            Plant a Tree Today
+          </h2>
+        </div>
+
+        <!-- Donation Form -->
+        <div class="bg-[#cff0dc] rounded-xl shadow-xl p-4 md:p-6 lg:p-8">
+          <form id="donationForm" class="space-y-6">
+            <!-- Name Field -->
+            <div class="form-control">
+              <label class="label">
+                <span class="text-lg font-semibold text-gray-700"
+                  >Full Name</span
+                >
+              </label>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="input input-bordered w-full focus:border-green-600 focus:ring-green-600 text-lg py-6"
+                required
+              />
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-control">
+              <label class="label">
+                <span class="text-lg font-semibold text-gray-700"
+                  >Email Address</span
+                >
+              </label>
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="input input-bordered w-full focus:border-green-600 focus:ring-green-600 text-lg py-6"
+                required
+              />
+            </div>
+
+            <!-- Number of Trees Dropdown -->
+            <div class="form-control">
+              <label class="label">
+                <span class="text-lg font-semibold text-gray-700"
+                  >Number of Trees</span
+                >
+              </label>
+              <select
+                class="select select-bordered w-full text-lg py-6 focus:border-green-600 focus:ring-green-600"
+                required
+              >
+                <option value="" disabled selected>
+                  Select number of trees to plant
+                </option>
+                <option value="1">1 Tree - 500 BDT</option>
+                <option value="5">5 Trees - 2,500 BDT</option>
+                <option value="10">10 Trees - 5,000 BDT</option>
+              </select>
+            </div>
+
+            <!-- Donate Now Button -->
+            <div class="form-control pt-4">
+              <button
+                type="submit"
+                class="btn btn-lg w-full bg-green-600 hover:bg-green-700 border-green-600 hover:border-green-700 text-white font-bold text-lg py-6 transition duration-300 transform hover:scale-[1.02]"
+              >
+                <i class="fas fa-seedling mr-3"></i>
+                Donate Now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div
+      class="flex items-center justify-center p-4 bg-[#cff0dc] text-black font-bold text-center min-h-[30px] sm:min-h-[30px] md:min-h-[30px]"
+    >
+      <p class="text-sm sm:text-base md:text-lg">
+        © 2025 Green Earth. All Rights Reserved.
+      </p>
+    </div>
 
     <!-- Modal -->
 
